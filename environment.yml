@@ -1,0 +1,27 @@
+name: pymc_course
+
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - hvplot
+  - ipython
+  - ipywidgets
+  - jupyter_client
+  - jupyter_core
+  - jupyterlab
+  - numba
+  - patsy
+  - pip
+  - polars
+  - pyarrow
+  - pymc
+  - pydot
+  - python-graphviz
+  - scipy
+  - seaborn
+  - setuptools
+  - pip:
+    - pybaseball
+    - jax[cpu]
+    - numpyro[cpu]

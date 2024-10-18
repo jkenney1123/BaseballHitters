@@ -23,5 +23,5 @@ dependencies:
   - setuptools
   - pip:
     - pybaseball
-    - jax[cpu]
-    - numpyro[cpu]
+    - jax[gpu]
+    - numpyro[gpu]
